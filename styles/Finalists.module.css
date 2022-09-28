@@ -1,0 +1,74 @@
+.finalists {
+	padding: 8rem 2rem;
+	min-height: 100vh;
+	background-color: var(--secondary);
+}
+
+.container {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+	margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 500px) {
+	.header {
+		justify-content: center;
+	}
+}
+
+.categories {
+	display: flex;
+	gap: 1rem;
+}
+
+@media screen and (max-width: 624px) {
+	.categories {
+		display: none;
+	}
+}
+
+.category {
+	opacity: 0.8;
+	font-size: 0.9rem;
+	border: 1px solid var(--primary);
+	color: var(--primary);
+	font-weight: 600;
+	padding: 0.3rem 2rem;
+	border-radius: 5rem;
+	transition: all 0.5s ease;
+}
+
+.category:hover {
+	opacity: 1;
+}
+
+.select {
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 0.5rem;
+	border-radius: 0.3rem;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+	.category {
+		display: none;
+	}
+}
+
+.option {
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 0.5rem;
+	border-radius: 0.3rem;
+	font-weight: 600;
+}

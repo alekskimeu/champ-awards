@@ -1,26 +1,131 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--white: #ffffff;
+	--black: #000000;
+	--primary: #e1ad33;
+	--secondary: #111957;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+span {
+	line-height: 1.5;
+	letter-spacing: 2px;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+body {
+	background-color: var(--white);
+	font-family: "Abel", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.btn-more {
+	font-size: 1rem;
+	font-weight: 500;
+	transition: all 0.5s ease;
+	color: var(--white);
+	background-color: var(--primary);
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.btn-more {
+	border-radius: 0.3rem;
+	padding: 0.5rem 0.8rem;
+}
+
+.btn-more:hover {
+	opacity: 0.9;
+}
+
+.btn-more:active {
+	transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+}
+
+.social-media-icon {
+	border-radius: 0.3rem;
+	-webkit-border-radius: 0.3rem;
+	-moz-border-radius: 0.3rem;
+	-ms-border-radius: 0.3rem;
+	-o-border-radius: 0.3rem;
+	background-color: #575757;
+	font-size: 1.4rem;
+	color: var(--white);
+	padding: 0.3rem 0.4rem 0.1rem 0.5rem;
+}
+
+.btn-sponsor {
+	color: var(--secondary);
+	font-size: 1.2rem;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	gap: 0.3rem;
+	opacity: 0.8;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.btn-sponsor i {
+	opacity: 0.7;
+	font-size: 1rem;
+}
+
+.btn-sponsor:hover {
+	opacity: 1;
+}
+
+.contact-icon {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 1.2rem;
+	color: var(--white);
+	opacity: 0.8;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.contact-icon:hover {
+	opacity: 1;
+}
+
+.contact-icon:active {
+	transform: scale(0.98);
+	-webkit-transform: scale(0.98);
+	-moz-transform: scale(0.98);
+	-ms-transform: scale(0.98);
+	-o-transform: scale(0.98);
 }

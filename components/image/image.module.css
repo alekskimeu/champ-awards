@@ -1,0 +1,20 @@
+.container {
+	height: 520px;
+}
+
+.image {
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+	border-radius: .5rem;
+	-webkit-border-radius: .5rem;
+	-moz-border-radius: .5rem;
+	-ms-border-radius: .5rem;
+	-o-border-radius: .5rem;
+}
+
+@media screen and (max-width: 500px) {
+	.container {
+		display: none;
+	}
+}

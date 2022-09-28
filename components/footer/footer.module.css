@@ -1,0 +1,39 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 2rem 1rem 1rem 1rem;
+	background-color: var(--secondary);
+	min-height: 3rem;
+}
+
+.container {
+	max-width: 1600px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+	.container {
+		flex-direction: column;
+	}
+}
+
+.links {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+}
+
+.footerLink {
+	color: var(--white);
+	opacity: 0.9;
+	font-size: 1.2rem;
+}
+
+.copyright {
+	color: var(--white);
+	opacity: 0.8;
+}

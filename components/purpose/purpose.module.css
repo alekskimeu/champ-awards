@@ -1,0 +1,39 @@
+.purpose {
+	border-radius: 0.5rem;
+	padding: 2rem 1.5rem;
+	border: 1px solid rgba(231, 231, 231, 0.2);
+}
+
+.image {
+	max-width: 100%;
+}
+
+.title {
+	opacity: 0.8;
+	font-weight: 600;
+	margin-top: 0.6rem;
+	width: fit-content;
+	text-transform: capitalize;
+	color: var(--white);
+	font-size: 1.2rem;
+	position: relative;
+}
+
+.title::after {
+	position: absolute;
+	content: "";
+	bottom: -0.2rem;
+	left: 0;
+	width: 100%;
+	border: none;
+	background-color: rgba(231, 231, 231, 0.4);
+	height: 1px;
+	opacity: 0.4;
+}
+
+.description {
+	font-size: 1.25rem;
+	opacity: 0.8;
+	color: var(--white);
+	margin-top: 1rem;
+}

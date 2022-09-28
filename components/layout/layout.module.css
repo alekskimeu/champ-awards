@@ -1,0 +1,9 @@
+.container {
+	position: relative;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	padding-bottom: 3rem;
+}

@@ -1,0 +1,38 @@
+.package {
+	border-radius: 0.3rem;
+	box-shadow: 4px 8px 24px rgba(231, 231, 231);
+}
+
+.header {
+	padding: 0.5rem 0.8rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.title {
+	color: var(--white);
+	font-size: 1.3rem;
+}
+
+.amount {
+	background-color: var(--white);
+	border-radius: 0.5rem;
+	padding: 0.35rem 1rem 0.2rem 1rem;
+}
+
+.content {
+	padding: 1.5rem 2.5rem;
+	background-color: var(--white);
+}
+
+.benefits {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.benefit {
+	font-size: 1.2rem;
+}

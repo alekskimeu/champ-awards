@@ -1,0 +1,29 @@
+.social {
+	padding: 5rem 1rem;
+}
+
+.wrapper {
+	max-width: 1400px;
+	margin: auto;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 1.3rem;
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+	.wrapper {
+		flex-direction: column;
+	}
+}
