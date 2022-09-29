@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import styles from "./countdown.module.css";
 
-const Countdown = ({ date }) => {
+const Countdown = ({ color }) => {
 	const [countdownDate, setCountdownDate] = useState(
 		new Date("10/06/2022").getTime()
 	);
@@ -50,21 +50,73 @@ const Countdown = ({ date }) => {
 
 	return (
 		<section className={styles.container}>
-			<div className={styles.unit}>
-				<h1 className={styles.amount}>{state.days}</h1>
-				<p className={styles.description}>Days</p>
+			<div
+				className={styles.unit}
+				style={{ backgroundColor: color ? color : "white" }}
+			>
+				<h1
+					className={styles.amount}
+					style={{ color: color ? "white" : "black" }}
+				>
+					{state.days}
+				</h1>
+				<p
+					className={styles.description}
+					style={{ color: color ? "white" : "black" }}
+				>
+					Days
+				</p>
 			</div>
-			<div className={styles.unit}>
-				<h1 className={styles.amount}>{state.hours}</h1>
-				<p className={styles.description}>Hours</p>
+			<div
+				className={styles.unit}
+				style={{ backgroundColor: color ? color : "white" }}
+			>
+				<h1
+					className={styles.amount}
+					style={{ color: color ? "white" : "black" }}
+				>
+					{state.hours}
+				</h1>
+				<p
+					className={styles.description}
+					style={{ color: color ? "white" : "black" }}
+				>
+					Hours
+				</p>
 			</div>
-			<div className={styles.unit}>
-				<h1 className={styles.amount}>{state.minutes}</h1>
-				<p className={styles.description}>Minutes</p>
+			<div
+				className={styles.unit}
+				style={{ backgroundColor: color ? color : "white" }}
+			>
+				<h1
+					className={styles.amount}
+					style={{ color: color ? "white" : "black" }}
+				>
+					{state.minutes}
+				</h1>
+				<p
+					className={styles.description}
+					style={{ color: color ? "white" : "black" }}
+				>
+					Minutes
+				</p>
 			</div>
-			<div className={styles.unit}>
-				<h1 className={styles.amount}>{state.seconds}</h1>
-				<p className={styles.description}>Seconds</p>
+			<div
+				className={styles.unit}
+				style={{ backgroundColor: color ? color : "white" }}
+			>
+				<h1
+					className={styles.amount}
+					style={{ color: color ? "white" : "black" }}
+				>
+					{state.seconds}
+				</h1>
+				<p
+					className={styles.description}
+					style={{ color: color ? "white" : "black" }}
+				>
+					Seconds
+				</p>
 			</div>
 		</section>
 	);

@@ -5,11 +5,7 @@ import styles from "./socialMedia.module.css";
 const SocialMedia = () => {
 	return (
 		<section className={styles.social}>
-			<div
-				className={styles.wrapper}
-				data-aos="fade-up"
-				data-aos-duration="1600"
-			>
+			<div className={styles.wrapper}>
 				<h3 className={styles.title}>Find us online:</h3>
 				<div className={styles.icons}>
 					<a href="" className="social-media-icon" target="_blank">

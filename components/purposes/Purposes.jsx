@@ -14,7 +14,7 @@ const Purposes = () => {
 				data-aos="fade-right"
 				data-aos-duration="1600"
 			>
-				<h1 className={styles.title}>Champ Awards</h1>
+				<h1 className={styles.title}>Our Purpose</h1>
 				<p className={styles.description}>
 					Celebrate students in music, acting, sports, and other fields of
 					entertainment.
@@ -22,7 +22,7 @@ const Purposes = () => {
 			</div>
 			<div className={styles.wrapper}>
 				{purposes.map((purpose) => (
-					<Purpose purpose={purpose} key={purpose.index} />
+					<Purpose purpose={purpose} key={purpose.index} image={true} />
 				))}
 			</div>
 		</section>

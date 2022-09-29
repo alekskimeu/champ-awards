@@ -1,7 +1,7 @@
 import image from "../public/assets/medal.png";
-import talent from "../public/assets/talent.png";
-import students from "../public/assets/students.png";
-import coach from "../public/assets/coach.png";
+import talent from "../public/assets/talent.webp";
+import students from "../public/assets/students.webp";
+import coach from "../public/assets/teachers.webp";
 
 export const purposes = [
 	{

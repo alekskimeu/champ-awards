@@ -1,3 +1,4 @@
+export { default as Countdown } from "./countdown/Countdown";
 export { default as Layout } from "./layout/Layout";
 export { default as Gallery } from "./gallery/Gallery";
 export { default as GetInvolved } from "./getInvolved/GetInvolved";
@@ -7,5 +8,6 @@ export { default as Hero } from "./hero/Hero";
 export { default as ImageContainer } from "./image/ImageContainer";
 export { default as Footer } from "./footer/Footer";
 export { default as Package } from "./package/Package";
+export { default as Purpose } from "./purpose/Purpose";
 export { default as Purposes } from "./purposes/Purposes";
 export { default as SocialMedia } from "./socialMedia/SocialMedia";

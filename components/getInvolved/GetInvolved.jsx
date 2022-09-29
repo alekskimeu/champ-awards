@@ -11,7 +11,7 @@ const GetInvolved = () => {
 			<div
 				className={styles.content}
 				data-aos="fade-up"
-				data-aos-duration="1600"
+				data-aos-duration="1400"
 			>
 				<h1 className={styles.title}>Get Involved</h1>
 				<p className={styles.description}>

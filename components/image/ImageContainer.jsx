@@ -6,8 +6,8 @@ const ImageContainer = ({ image, name, alt }) => {
 	return (
 		<div
 			className={styles.container}
-			data-aos="fade-up"
-			data-aos-duration="1600"
+			data-aos="zoom-in"
+			data-aos-duration="1400"
 		>
 			<Image
 				src={image}

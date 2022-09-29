@@ -16,7 +16,7 @@ const Hero = () => {
 				<div
 					className={styles.content}
 					data-aos="fade-right"
-					data-aos-duration="1600"
+					data-aos-duration="1400"
 				>
 					<h1 className={styles.title}>
 						CHAMP AWARDS {new Date().getFullYear()}

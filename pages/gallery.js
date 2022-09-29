@@ -13,7 +13,7 @@ const gallery = () => {
 						<ImageContainer
 							image={photo.image}
 							key={photo.index}
-							alt={photos.name}
+							alt={photo.name}
 						/>
 					))}
 				</div>

@@ -1,0 +1,33 @@
+.countdown {
+	padding: 7rem 2rem;
+	background-color: var(--secondary);
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 0.5rem;
+	margin-bottom: 2rem;
+}
+
+.heading {
+	color: var(--primary);
+	font-size: 2rem;
+}
+
+.subheading {
+	color: var(--white);
+	opacity: 0.8;
+	font-size: 1.4rem;
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.unit {
+	background-color: var(--secondary);
+}
