@@ -39,7 +39,7 @@ const Hero = () => {
 						</Link>
 					</div>
 				</div>
-				<ImageContainer image={champ} />
+				<ImageContainer hero={true} image={champ} />
 			</div>
 		</section>
 	);
