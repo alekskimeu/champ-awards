@@ -27,7 +27,7 @@ const Header = () => {
 				</Link>
 				<div
 					className={styles.navbar}
-					style={{ left: show ? "0" : "-100%", width: show ? "100%" : "0" }}
+					style={{ left: show ? "0" : "-100%" }}
 				>
 					<div className={styles.menu}>
 						<Link href="/">
