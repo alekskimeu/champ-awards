@@ -1,0 +1,19 @@
+.vote {
+    padding: 8rem 2rem 0 2rem;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+.container iframe {
+    width: 100%;
+    min-height: 80vh;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
