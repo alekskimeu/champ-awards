@@ -13,7 +13,7 @@ const ImageContainer = ({ image, name, alt }) => {
 				src={image}
 				alt={alt ? alt : "Champ Awards"}
 				className={styles.image}
-				layout="fill"
+				layout="responsive"
 			/>
 		</div>
 	);

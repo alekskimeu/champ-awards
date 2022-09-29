@@ -15,7 +15,9 @@ const vote = () => {
 				<section className={styles.vote}>
 					<div className={styles.container}>
 						<iframe
-							src="https://docs.google.com/forms/d/e/1FAIpQLSe_DBj1pzSVqxitidxA0tYYfKpWapP5v-ytmrcDWEhQNn7_3g/viewform?embedded=true"
+							src="https://docs.google.com/forms/d/e/1FAIpQLSedR_dA7R-lmotRQ5ZZl3KOzNBT1xkzqKsgejYDZTMDu3RLGw/viewform?embedded=true"
+							width="700"
+							height="520"
 							frameborder="0"
 							marginheight="0"
 							marginwidth="0"

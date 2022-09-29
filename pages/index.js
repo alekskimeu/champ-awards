@@ -15,7 +15,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Champ Awards - Home</title>
+				<title>Champ Awards - Official website</title>
 				<meta
 					name="description"
 					content="Celebrating students in music, acting, sports, and other fields of entertainment"
