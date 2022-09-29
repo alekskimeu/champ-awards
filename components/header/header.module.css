@@ -103,10 +103,8 @@
 		height: 100vh;
 		background-color: var(--secondary);
 		justify-content: center;
-		/* left: ${(props) => (props.show ? 0 : -100)}%; */
 		position: absolute;
-		top: 0;
-		/* width: ${(props) => (props.show ? 100 : 0)}%; */
+		top: 5.5rem;
 	}
 
 	.menu {

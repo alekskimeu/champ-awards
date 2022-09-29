@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, ImageContainer } from "../components";
+import { Layout, ImageContainer, SocialMedia } from "../components";
 
 import { photos } from "../data/photos";
 import styles from "../styles/Gallery.module.css";
@@ -17,6 +17,7 @@ const gallery = () => {
 						/>
 					))}
 				</div>
+				<SocialMedia />
 			</section>
 		</Layout>
 	);

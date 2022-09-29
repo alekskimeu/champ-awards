@@ -41,7 +41,7 @@
 }
 
 .purposes {
-    padding: 3rem;
+    padding: 3rem 0;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -51,4 +51,11 @@
 .countdown {
     max-width: 1200px;
     margin: auto;
+}
+
+
+@media screen and (max-width: 1000px) {
+	.purposes {
+		grid-template-columns: 1fr;
+	}
 }

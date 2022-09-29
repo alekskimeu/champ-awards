@@ -14,7 +14,7 @@ const Purposes = () => {
 				data-aos="fade-right"
 				data-aos-duration="1600"
 			>
-				<h1 className={styles.title}>Our Purpose</h1>
+				<h1 className={styles.title}>WHAT WE DO</h1>
 				<p className={styles.description}>
 					Celebrate students in music, acting, sports, and other fields of
 					entertainment.
