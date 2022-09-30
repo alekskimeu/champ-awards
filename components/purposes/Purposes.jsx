@@ -16,7 +16,7 @@ const Purposes = () => {
 			>
 				<h1 className={styles.title}>WHAT WE DO</h1>
 				<p className={styles.description}>
-					Celebrate students in music, acting, sports, and other fields of
+					We celebrate students in music, acting, sports, and other fields of
 					entertainment.
 				</p>
 			</div>

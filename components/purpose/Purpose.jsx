@@ -11,9 +11,11 @@ const Purpose = ({ purpose, image }) => {
 			className={styles.purpose}
 			style={{
 				gridTemplateColumns: image ? "repeat(2, 1fr)" : "1fr",
-				border: !image && "1px solid #e1ad33",
+				backgroundColor: !image && "#fff",
+				border: !image && "1px solid rgba(231, 231, 231, .6)",
 				padding: !image && "1rem",
 				borderRadius: !image && ".5rem",
+				boxShadow: !image && "4px 8px 24px rgba(231, 231, 231)",
 			}}
 		>
 			{image && (
