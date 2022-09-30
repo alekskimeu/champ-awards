@@ -1,8 +1,8 @@
 import certificate from "../public/assets/champ-certificate.webp";
-import redcarpet from "../public/assets/red-carpet.webp";
+import redcarpet from "../public/assets/award.jpg";
 import photo1 from "../public/assets/photo-1.webp";
 import photo2 from "../public/assets/photo-2.webp";
-import photo3 from "../public/assets/photo-3.webp";
+import photo3 from "../public/assets/trophy.jpg";
 import photo4 from "../public/assets/photo-4.webp";
 import photo5 from "../public/assets/photo-5.webp";
 
