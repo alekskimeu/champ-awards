@@ -23,7 +23,7 @@ const Hero = () => {
 					</h1>
 					<h2 className={styles.description}>
 						The Annual CHAMP AWARDS {new Date().getFullYear()} edition will be
-						happening on
+						held on
 						<span className={styles.date}> 7th October 2022</span>
 						<br />
 						In the meantime, be sure to vote for your favorite finalist!

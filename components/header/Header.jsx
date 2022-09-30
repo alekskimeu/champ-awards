@@ -15,7 +15,7 @@ const Header = () => {
 		<header className={styles.header}>
 			<nav className={styles.nav}>
 				<Link href="/">
-					<a>
+					<a className={styles.brand}>
 						<Image
 							src={logo}
 							alt="Champ Awards"
@@ -25,10 +25,7 @@ const Header = () => {
 						/>
 					</a>
 				</Link>
-				<div
-					className={styles.navbar}
-					style={{ left: show ? "0" : "-100%" }}
-				>
+				<div className={styles.navbar} style={{ left: show ? "0" : "-100%" }}>
 					<div className={styles.menu}>
 						<Link href="/">
 							<a className={styles.navLink}>Home</a>
