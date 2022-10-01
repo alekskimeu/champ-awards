@@ -29,7 +29,7 @@ export default function Home() {
 					<div className={styles.container}>
 						<div className={styles.header}>
 							<h1 className={styles.heading}>7TH OCTOBER 2022</h1>
-							<h2 className={styles.subheading}>Let&#39;s freaking gooo 🚀!</h2>
+							<h2 className={styles.subheading}>The Champ way 🚀!</h2>
 						</div>
 						<Countdown />
 					</div>

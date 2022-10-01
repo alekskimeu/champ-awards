@@ -3,11 +3,9 @@ import redcarpet from "../public/assets/award.jpg";
 import photo1 from "../public/assets/photo-1.webp";
 import photo2 from "../public/assets/suit.jpg";
 import boy from "../public/assets/boy.jpg";
-
 import photo3 from "../public/assets/trophy.jpg";
 import photo4 from "../public/assets/photo-4.webp";
 import photo5 from "../public/assets/photo-5.webp";
-
 import photo6 from "../public/assets/photo-6.webp";
 import photo7 from "../public/assets/photo-7.webp";
 
@@ -41,23 +39,11 @@ export const photos = [
 		name: "Champ Awards Certificate Award",
 	},
 	{
-		image: photo7,
-		name: "Champ Awards Certificate Award",
-	},
-	{
-		image: photo2,
-		name: "Champ Awards Certificate Award",
-	},
-	{
 		image: boy,
 		name: "Champ Awards Certificate Award",
 	},
 	{
 		image: photo1,
-		name: "Champ Awards Certificate Award",
-	},
-	{
-		image: photo6,
 		name: "Champ Awards Certificate Award",
 	},
 ];
