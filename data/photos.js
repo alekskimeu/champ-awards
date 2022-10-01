@@ -1,7 +1,9 @@
 import certificate from "../public/assets/champ-certificate.webp";
 import redcarpet from "../public/assets/award.jpg";
 import photo1 from "../public/assets/photo-1.webp";
-import photo2 from "../public/assets/photo-2.webp";
+import photo2 from "../public/assets/suit.jpg";
+import boy from "../public/assets/boy.jpg";
+
 import photo3 from "../public/assets/trophy.jpg";
 import photo4 from "../public/assets/photo-4.webp";
 import photo5 from "../public/assets/photo-5.webp";
@@ -47,7 +49,7 @@ export const photos = [
 		name: "Champ Awards Certificate Award",
 	},
 	{
-		image: certificate,
+		image: boy,
 		name: "Champ Awards Certificate Award",
 	},
 	{
