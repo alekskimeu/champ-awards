@@ -26,7 +26,8 @@ const Hero = () => {
 						held on
 						<span className={styles.date}> 7th October 2022</span>
 						<br />
-						In the meantime, be sure to vote for your favorite finalist!
+						In the meantime, be sure to vote for your favorite finalist! Voting
+						ends on <span className={styles.date}> 6th October 2022</span>
 					</h2>
 					<Countdown />
 					<div className={styles.cta}>

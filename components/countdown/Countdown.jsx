@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./countdown.module.css";
 
 const Countdown = ({ color }) => {
-	const date = "10/06/2022";
+	const date = "10/07/2022";
 	const [countdownDate, setCountdownDate] = useState(new Date(date).getTime());
 
 	const [state, setState] = useState({
